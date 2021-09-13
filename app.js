@@ -4,6 +4,6 @@ function factorial(n){
     }
     return n*factorial(n-1)
 }
-let n = parseInt(prompt('Enter to number to find the factorial'))
+let n = parseInt(prompt('Enter the number to find the factorial'))
 let result = factorial(n)
 alert(`Factorial of ${n} is ${result}`)
